@@ -5,7 +5,8 @@ using namespace std;
 const int MAX_N = 10e8;
 #define loop(i, a, b) for (i = a; i <= b; i++)
 #define nl '\n'
-#define loop(n) for (int i = 0; i < n; i++)
+#define loop1(n) for (int i = 0; i < n; i++)
+#define loop2(n) for (int j = 0; j < n; j++)
 #define py cout << "YES" << nl
 #define pn cout << "NO" << nl
 #define print(ans) cout << ans << nl
