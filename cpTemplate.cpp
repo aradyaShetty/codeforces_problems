@@ -22,6 +22,7 @@ using vpp = vector < pair < T1, T2 >> ;
 template < typename T >
     void inputArray(vector < T > & arr, int n)
     {
+        arr.resize(n);
         for (int i = 0; i < n; i++)
         {
             cin >> arr[i];
