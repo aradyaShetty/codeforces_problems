@@ -3,10 +3,11 @@
 using namespace std;
 
 const int MAX_N = 10e8;
-#define loop3(i, a, b) for (i = a; i <= b; i++)
+#define loop4(l, a, b) for (l = a; l <= b; l++)
 #define nl '\n'
 #define loop(n) for (int i = 0; i < n; i++)
 #define loop2(n) for (int j = 0; j < n; j++)
+#define loop3(a, b) for (int k = a; k <= b; k++)
 #define py cout << "YES" << nl
 #define pn cout << "NO" << nl
 #define print(ans) cout << ans << nl
