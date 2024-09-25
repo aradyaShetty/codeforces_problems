@@ -39,6 +39,9 @@ template < typename T >
         }
     }
 
+void solve(){
+    
+}
 int t;
 int main()
 {
@@ -47,7 +50,7 @@ int main()
     
     cin >> t;
     while (t--) {
-        
+        solve();    
     }
     return 0;
 }
