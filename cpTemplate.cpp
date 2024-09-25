@@ -42,6 +42,7 @@ template < typename T >
 void solve(){
     
 }
+
 int t;
 int main()
 {
