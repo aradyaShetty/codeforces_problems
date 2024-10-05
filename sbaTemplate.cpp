@@ -1,5 +1,5 @@
-int pf(int a[], int m){
-  if(a[m] == 0){
+int pf(vi& a[], int m){
+  if(a[m] <= 0){
     return 0;
   }
   else{
@@ -7,7 +7,7 @@ int pf(int a[], int m){
   }
 }
 
-void sba(int a[], int n){
+void sba(vi& a[], int n){
   int l = -1, r = n, m;
   while(l+1<r){
     m = l + (r-l)/2;
@@ -19,8 +19,7 @@ void sba(int a[], int n){
     }
   }
 
-  if(a[l or r] == x)
+  if(a[l] == x)
     cout<<r<<" "<<l<<endl;
-  else
-    cout<<"Element not present"<<endl;
+  else    
 }
